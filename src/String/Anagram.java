@@ -16,6 +16,9 @@ public class Anagram {
      */
     public boolean isAnagram(String str1, String str2)
     {
+
+
+
         // Check if null or empty
         if(str1==null || str2==null || str1.length()==0 || str2.length()==0)
             return false;
